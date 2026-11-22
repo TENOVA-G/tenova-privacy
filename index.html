@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy &mdash; TENOVA</title>
+  <style>
+    :root {
+      --bg-color: #0A0D18;
+      --card-bg: #13182C;
+      --card-border: rgba(255, 255, 255, 0.08);
+      --accent-blue: #60A5FA;
+      --accent-purple: #C084FC;
+      --accent-green: #34D399;
+      --accent-amber: #FBBF24;
+      --text-main: #F1F5F9;
+      --text-muted: #94A3B8;
+      --code-bg: #070A12;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.65;
+      padding: 24px 16px 60px 16px;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 0 32px 0;
+      border-bottom: 1px solid var(--card-border);
+      margin-bottom: 32px;
+    }
+
+    .brand-title {
+      font-size: 32px;
+      font-weight: 900;
+      letter-spacing: 1px;
+      background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 8px;
+    }
+
+    .doc-title {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 12px;
+    }
+
+    .meta-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .meta-item strong {
+      color: var(--text-main);
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    h2 {
+      font-size: 19px;
+      font-weight: 700;
+      color: var(--accent-blue);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--accent-purple);
+      margin: 16px 0 8px 0;
+    }
+
+    p {
+      color: var(--text-main);
+      margin-bottom: 14px;
+      font-size: 14.5px;
+    }
+
+    ul, ol {
+      margin-left: 20px;
+      margin-bottom: 14px;
+      color: var(--text-main);
+      font-size: 14.5px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    strong {
+      color: #FFFFFF;
+    }
+
+    a {
+      color: var(--accent-blue);
+      text-decoration: none;
+      word-break: break-all;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .badge-no {
+      display: inline-block;
+      background: rgba(239, 68, 68, 0.15);
+      color: #F87171;
+      border: 1px solid rgba(239, 68, 68, 0.3);
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .badge-yes {
+      display: inline-block;
+      background: rgba(52, 211, 153, 0.15);
+      color: #34D399;
+      border: 1px solid rgba(52, 211, 153, 0.3);
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .badge-unresolved {
+      display: inline-block;
+      background: rgba(251, 191, 36, 0.15);
+      color: #FBBF24;
+      border: 1px solid rgba(251, 191, 36, 0.3);
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 13.5px;
+    }
+
+    th, td {
+      border: 1px solid var(--card-border);
+      padding: 10px 14px;
+      text-align: left;
+    }
+
+    th {
+      background: rgba(255, 255, 255, 0.04);
+      color: var(--accent-blue);
+      font-weight: 700;
+    }
+
+    td {
+      color: var(--text-main);
+    }
+
+    .highlight-box {
+      background: rgba(96, 165, 250, 0.08);
+      border-left: 4px solid var(--accent-blue);
+      padding: 14px 18px;
+      border-radius: 0 8px 8px 0;
+      margin: 16px 0;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 32px 0;
+      border-top: 1px solid var(--card-border);
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand-title">TENOVA</div>
+      <div class="doc-title">Privacy Policy</div>
+      <div class="meta-bar">
+        <div class="meta-item"><strong>Developer:</strong> Tenova Studios</div>
+        <div class="meta-item"><strong>App:</strong> TENOVA: Number Stack (com.numberstack.merge10)</div>
+        <div class="meta-item"><strong>Version:</strong> v1.0.18 (Code 19)</div>
+        <div class="meta-item"><strong>Last Updated:</strong> November 22, 2026</div>
+        <div class="meta-item"><strong>Effective Date:</strong> November 22, 2026</div>
+      </div>
+    </header>
+
+    <div class="card">
+      <h2>1. Overview &amp; Commitment to Privacy</h2>
+      <p>
+        Tenova Studios ("we", "our", or "us") is dedicated to protecting player privacy while you enjoy <strong>TENOVA: Number Stack</strong> (the "Game"), our strategic number puzzle game on Android.
+      </p>
+      <p>
+        TENOVA is designed as an offline-ready number puzzle game suitable for players ages 5 and above. We do not require you to create an account, log in with social networks, or submit personal credentials. The Game can be played completely offline without internet connectivity.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>2. Game Progress</h2>
+      <p>
+        TENOVA: Number Stack can be played without creating an account. The game stores your nickname, selected avatar, scores, moves, unlocked characters, and booster inventory on your device. The leaderboard also runs on your device. Tenova Studios does not operate a server that receives these records.
+      </p>
+      <ul>
+        <li><strong>Safe System-Generated Nicknames:</strong> Player nicknames (such as <code>Nova4821</code>, <code>Titan7821</code>, or <code>Rex2048</code>) are selected or generated automatically. There is no open text input field for player names in the game interface, preventing accidental submission of real names or sensitive information.</li>
+        <li><strong>Local Milestone Progression:</strong> All 30 character avatars are unlocked through in-game high-score milestones. Unlocks are computed and stored exclusively on your device.</li>
+        <li><strong>Pure On-Device Play:</strong> TENOVA operates on-device for player profiles and scores. Tenova Studios does not operate a server that collects, synchronizes, or receives your gameplay progress.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>3. Storage and Deletion</h2>
+      <p>
+        TENOVA stores gameplay progress on-device and disables Android cloud backup for its app data. Clearing TENOVA’s app storage deletes all local game progress, encrypted records, and client settings. Tenova Studios does not operate a server that receives these records and has no server copy from which to restore them.
+      </p>
+      <ul>
+        <li><strong>Native Tink-Encrypted Records:</strong> Core gameplay records on the Android native filesystem are encrypted on-device using <strong>Google Tink AEAD (AES-256-GCM)</strong> with cryptographic master keys managed securely via the Android Keystore system. These encrypted records include:
+          <ul style="margin-top: 4px; margin-bottom: 6px;">
+            <li>All-time high scores (<code>enc_best_score</code>).</li>
+            <li>Active puzzle board state and undo/resume snapshots (<code>enc_game_state</code>, <code>enc_game_state_backup</code>).</li>
+            <li>Milestone-unlocked character avatars and selected avatar ID (<code>enc_unlocked_avatars</code>, <code>enc_selected_avatar</code>).</li>
+            <li>System-generated anonymous player nickname (<code>enc_nickname</code>).</li>
+            <li>Self-reported age category (<code>enc_age_category</code>), which is authoritatively validated and locked against age elevation on the native layer.</li>
+            <li>Rewarded Hammer ad credits (<code>enc_hammer_credits</code>).</li>
+          </ul>
+        </li>
+        <li><strong>WebView Local Storage (<code>localStorage</code>):</strong> The internal WebView sandbox maintains unencrypted on-device browser storage for UI state and client-side gameplay functionality. Data stored in WebView <code>localStorage</code> is NOT encrypted with Tink AEAD and includes:
+          <ul style="margin-top: 4px; margin-bottom: 6px;">
+            <li><strong>High Scores:</strong> Cached personal best score record (<code>ns_merge10_best</code>).</li>
+            <li><strong>Achievements:</strong> Progress and completion timestamps for puzzle milestone achievement badges (<code>tenova_achievements</code>).</li>
+            <li><strong>Hammer Credits:</strong> Client-side copy of rewarded Hammer ad progress and booster inventory (<code>ns_hammer_credits</code>, <code>ns_starter_boosters_used</code>).</li>
+            <li><strong>Gameplay Preferences:</strong> Audio sound mute state (<code>tenova_sound_muted</code>) and tutorial completion flag (<code>tenova_tutorial_completed</code>).</li>
+            <li><strong>Other Locally Stored Gameplay Information:</strong> TENOVA’s WebView can save a local copy of your player profile, including your player ID, nickname, age category, avatar choices, and scores. This copy is stored on your device outside the native encrypted store. Android controls whether advertising is enabled for your profile. The WebView also stores gameplay and performance statistics, including games played, merges, booster use, ad rewards and failures, and timing measurements. It records the first-launch time and whether the game was opened at least one or seven days later.</li>
+          </ul>
+          <em>Note:</em> WebView <code>localStorage</code> does not govern advertising permissions or verified age categories. Native Android code is the sole authority for age verification and ad eligibility. No real names, account passwords, or personal identity documents are stored in <code>localStorage</code>.
+        </li>
+        <li><strong>Cloud Backup Disabled:</strong> <code>android:allowBackup="false"</code> is declared in the application manifest, disabling automated Android cloud backup extraction of local game records.</li>
+        <li><strong>Data Deletion Scope &amp; Mechanisms:</strong>
+          <ol style="margin-top: 6px; margin-left: 20px;">
+            <li><strong>Local Gameplay Progress &amp; Settings:</strong> You can permanently delete all local game records, Tink-encrypted data, and WebView local storage at any time by selecting <em>Clear Storage</em> or <em>Clear Data</em> in Android Settings under <em>Apps &gt; TENOVA &gt; Storage</em>, or by uninstalling the application.</li>
+            <li><strong>Support Communications:</strong> Emails sent voluntarily to Tenova Studios are kept while a request is open and for up to 90 days after it is resolved. Players and parents can request earlier deletion by emailing <a href="mailto:tenova.studio.ds@gmail.com">tenova.studio.ds@gmail.com</a>. We may retain specific records longer when legally required.</li>
+            <li><strong>Data Handled by Google:</strong> Telemetry processed by Google through Google Mobile Ads SDK or Google Play Services is governed directly by Google's privacy policies and data retention schedules. Tenova Studios has no server copy of this data and cannot independently delete records maintained by Google.</li>
+          </ol>
+        </li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>4. Advertising and Age-Appropriate Configuration</h2>
+      <p>
+        TENOVA starts gameplay immediately without requiring age information, registration, or login. Players begin in an unverified (unknown age) protected state where advertising SDK initialization and ad requests are completely disabled.
+      </p>
+      <p>
+        If a player voluntarily chooses to access optional ad-supported features (such as watching an ad to unlock extra boosters after using free starter allowances), a neutral age screen is presented before advertising is enabled.
+      </p>
+      <ul>
+        <li><strong>Unscreened or Skipped Profiles:</strong> For players who have not completed age screening or choose to skip it, the Google Mobile Ads SDK is not initialized, no ad requests are made, and advertising remains completely disabled. Players continue to enjoy the full game with free starter booster allowances in every game.</li>
+        <li><strong>Child Profiles (Ages 0–12):</strong> For players who identify as under 13, COPPA child-directed treatment is configured (<code>setTagForChildDirectedTreatment(true)</code>, <code>TAG_FOR_UNDER_AGE_OF_CONSENT_UNSPECIFIED</code>), ad content is restricted to General Audiences (<code>MAX_AD_CONTENT_RATING_G</code>), and non-personalized advertising is requested (<code>npa=1</code>). In accordance with Google SDK guidance, under-age-of-consent flags are not set simultaneously with child-directed treatment to prevent conflicting signals.</li>
+        <li><strong>Teen Profiles (Ages 13–17):</strong> For players between 13 and 17, under-age-of-consent protections (TFUA) are configured (<code>setTagForUnderAgeOfConsent(true)</code>, <code>TAG_FOR_CHILD_DIRECTED_TREATMENT_FALSE</code>), and content remains capped at <code>MAX_AD_CONTENT_RATING_G</code>.</li>
+        <li><strong>Adult Profiles (Ages 18+):</strong> Standard consent-governed advertising applies. Consent is managed through the Google User Messaging Platform (UMP) where applicable.</li>
+        <li><strong>Approved Families Ad SDK:</strong> Advertisements are requested through Google Mobile Ads SDK (AdMob 24.0.0), which Google lists as an approved ad SDK for Google Play Families programs.</li>
+        <li><strong>Advertising ID Restrictions:</strong> The <code>com.google.android.gms.permission.AD_ID</code> permission is removed from the application manifest (<code>tools:node="remove"</code>), which prompts Google Play Services to zero out the Android Advertising ID on Android 13+ devices. Note that removing this permission addresses the user-resettable advertising identifier; Google documents that other identifiers (such as App Set ID) may separately be collected by its SDK for fraud prevention and technical diagnostics.</li>
+        <li><strong>Voluntary Rewarded Booster Ads:</strong> Players may voluntarily watch rewarded advertisements to unlock extra booster credits (Hammer requires 2 completed ads; Swap requires 1 completed ad; Undo requires 1 completed ad). Rewarded ads are optional and never required to play.</li>
+        <li><strong>Natural Break Retry Pacing:</strong> Interstitial ads are shown only at natural breaks (when tapping Retry after a game over), never during active puzzle gameplay or app launch. Pacing controls enforce a minimum 90-second cooldown between full-screen ads, show at most once every 3 completed retries, and cap at a maximum of 10 interstitial impressions per hour.</li>
+        <li><strong>Banner Ads Disabled:</strong> Bottom banner ads are permanently disabled (<code>BANNER_ENABLED = false</code>) to ensure an unhindered playing area with no touch interference.</li>
+        <li><strong>Starter Boosters:</strong> At the start of each new game, players whose age is unknown or whose profile is in the child age group receive two free Hammer uses. Teen and adult profiles receive one. Every profile receives one free Swap and one free Undo.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>5. Google Mobile Ads SDK (AdMob 24.0.0) Technical Disclosures</h2>
+      <p>TENOVA includes Google Mobile Ads SDK 24.0.0. Google’s current disclosure guide describes a later version. Google describes processing IP addresses that may indicate approximate location, app and ad interactions, performance diagnostics and identifiers such as App Set ID for advertising, analytics and fraud prevention. Google describes encrypting SDK data in transit using TLS. Removing the Android advertising ID permission does not disable every identifier.</p><p>Tenova Studios has not established whether this version sends App Set ID or crash stack traces for each age profile, which diagnostic fields it sends, or how long Google retains IP-derived location. Google manages retention and deletion of records on its systems.</p>
+
+      <div class="highlight-box">
+        For details on how Google handles advertising data, please consult Google's official documentation:
+        <br>&bull; <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" target="_blank" rel="noopener">Google AdMob Play Data Disclosure Guide</a>
+        <br>&bull; <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>
+        <br>&bull; <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">How Google Uses Information From Sites or Apps That Use Our Services</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>6. Reports Available to the Studio</h2>
+      <p>
+        Tenova Studios receives aggregate installation, crash, and app-responsiveness reports through Google Play, and advertising performance and revenue reports through AdMob. The game has no separate analytics or crash-reporting service.
+      </p>
+      
+    </div>
+
+    <div class="card">
+      <h2>7. Support and Privacy Requests</h2>
+      <p>
+        If you email Tenova Studios, we use your email address and the information you send to respond. We keep support emails while a request is open and for up to 90 days after it is resolved. Players and parents can request earlier deletion by emailing <a href="mailto:tenova.studio.ds@gmail.com">tenova.studio.ds@gmail.com</a>. We may retain specific records longer when legally required.
+      </p>
+      <div class="highlight-box">
+        <strong>Direct Contact for Privacy &amp; Support Requests:</strong><br>
+        Developer: <strong>Tenova Studios</strong><br>
+        Support &amp; Data Deletion Email: <a href="mailto:tenova.studio.ds@gmail.com">tenova.studio.ds@gmail.com</a><br>
+        Package Name: <code>com.numberstack.merge10</code><br>
+        <em>Note: Tenova Studios can only delete support communications in its possession. We cannot delete telemetry maintained independently by Google or restore local game progress once erased from your device.</em>
+      </div>
+    </div>
+
+    <footer>
+      &copy; 2026 Tenova Studios. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
